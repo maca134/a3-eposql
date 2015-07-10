@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpoSql", "EpoSql\EpoSql.csproj", "{C5238D52-2F82-43CA-BF49-A2C20F370372}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpoSqlConsole", "EpoSqlConsole\EpoSqlConsole.csproj", "{083C4840-2462-4FD7-80E0-CFCB8DD0F480}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateDatabase", "CreateDatabase\CreateDatabase.csproj", "{1399447C-0ED8-4563-A615-E1C95BB83FD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Import", "Import\Import.csproj", "{8C83D9D1-4961-4519-A60E-21A67CCBAC56}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5238D52-2F82-43CA-BF49-A2C20F370372}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5238D52-2F82-43CA-BF49-A2C20F370372}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5238D52-2F82-43CA-BF49-A2C20F370372}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5238D52-2F82-43CA-BF49-A2C20F370372}.Release|Any CPU.Build.0 = Release|Any CPU
+		{083C4840-2462-4FD7-80E0-CFCB8DD0F480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{083C4840-2462-4FD7-80E0-CFCB8DD0F480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{083C4840-2462-4FD7-80E0-CFCB8DD0F480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{083C4840-2462-4FD7-80E0-CFCB8DD0F480}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1399447C-0ED8-4563-A615-E1C95BB83FD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1399447C-0ED8-4563-A615-E1C95BB83FD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1399447C-0ED8-4563-A615-E1C95BB83FD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1399447C-0ED8-4563-A615-E1C95BB83FD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C83D9D1-4961-4519-A60E-21A67CCBAC56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C83D9D1-4961-4519-A60E-21A67CCBAC56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C83D9D1-4961-4519-A60E-21A67CCBAC56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C83D9D1-4961-4519-A60E-21A67CCBAC56}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
