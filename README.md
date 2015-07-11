@@ -1,6 +1,8 @@
 # EpoSql - [Downloads](https://github.com/maca134/a3-eposql/releases)
 A server mod for A3 Epoch to allow use of MySQL instead of Redis. Once data is retrevied from the database it is held in memory and only updates when the server send data to the extension. This means you CAN NOT edit player data if they have logged in during the current server session (This behavour will be changed if people request it), to get around this, you can disable caching globally but this will slow things down.
 
+Worst case, if you do edit the database while the server is running, the changes will be lost. Nothing will explode =P
+
 Redis MAY still be required, as is the current `EpochServer.dll` but all player/building/etc data will be redirected to MySQL/Sqlite.
 
 ##### Performance
