@@ -3,6 +3,11 @@ A server mod for A3 Epoch to allow use of MySQL instead of Redis. Once data is r
 
 Redis MAY still be required, as is the current `EpochServer.dll` but all player/building/etc data will be redirected to MySQL/Sqlite.
 
+##### Performance
+EpoSql: 0.0126999/0.00810089 ms — with/without full logging
+
+Offical Epoch: 0.0524994 ms – Offical epoch dll
+
 #### THIS EXTENSION IS COMPLETELY WIP. ENSURE YOU BACKUP EVERYTHING!
 
 ##### IM LOOKING FOR PEOPLE TO HELP OUT WITH IT.
