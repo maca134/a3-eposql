@@ -30,6 +30,7 @@ Offical Epoch: 0.0524994 ms – Offical epoch dll
     - `MySQL Password`: MySQL password
     - `MySQL Database`: MySQL database name
     - `Sqlite DBFile`: Sqlite filename
+- Create a new database.
 - Once all the config is setup, run `CreateDatabase.exe` to create the database schema.
 - Now you can start the server.
 
